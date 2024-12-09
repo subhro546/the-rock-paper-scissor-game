@@ -1,0 +1,67 @@
+body{
+    background-color:#feea00;
+    
+}
+.central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:80px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+.head h1{
+    margin:10px;
+}
+.central img{
+    height: 300px;
+    width: 250px;
+    transition: width 0.5s , height 0.5s;
+}
+
+.central img:hover{
+    height:320px;
+    width: 270px;
+    cursor: pointer;
+}
+.counter{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px 0px 50px;
+}
+.counter h1{
+    display: inline;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0px;
+}
+.chose1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+
+
+
